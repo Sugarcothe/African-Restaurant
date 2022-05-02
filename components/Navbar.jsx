@@ -25,8 +25,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className={styles.item}>
-                  <Image src='/img/cart.png' alt='' width='170' height="170"/>
-                  <div>2</div>
+                <Image src='/img/cart.png' alt='' width='40px' height="40px"/>
+                <div className={styles.counter}>2</div>
             </div>
         </div>
     )
