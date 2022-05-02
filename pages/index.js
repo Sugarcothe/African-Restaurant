@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Featured from '../components/Featured'
+import Pizzalist from '../components/PizzaList'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Featured/>
+      <Pizzalist/>
      
       
     </div>
